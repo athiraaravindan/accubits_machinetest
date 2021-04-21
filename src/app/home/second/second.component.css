@@ -1,0 +1,27 @@
+.flex-row-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 156px;
+}
+.flex-row-container > .flex-row-item {
+    flex: 1 1 30%; /*grow | shrink | basis */
+    height: 100px;
+    text-align: center;
+}
+
+.flex-row-item {
+  background-color:white;
+}
+.head {
+    text-align: center;
+    padding: 1% 0% 1% 0%;
+    background: #d1d2c26b;
+    margin-left: 40%;
+    margin-right: 42%;
+    border-radius: 29px;
+}
+.main{
+    padding-bottom: 15%;
+}
